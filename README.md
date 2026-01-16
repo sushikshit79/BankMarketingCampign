@@ -16,7 +16,7 @@ The objective of this task is to evaluate how effectively client and campaign at
 * After carefully looking at the data of all the attributes, they can be dividied in to client attributes, campaign communication, campaign history and economic indicator attributes
 * Client  profile attributes(age,job,marital,education,default,housing,loan)- Provides client information on who accepted the term deposit
 * Campaign communication attrubutes (contact, month, day_of_week, duration) - Helps understand how were subscribers engaged previously
-* Duration attribute is only  availablea t the time of client engagement and highly predictive, this feature cannot be used as we will not have future calls duration data
+* Duration attribute is only  availablea for the time of client engagement and highly predictive, this feature cannot be used as we will not have future calls duration data
 * Campaign history attributes (campaign, pdays, previous, poutcome) - Provides what happened before
 * Economic indicators (emp.var.rate, cons.price.idx, cons.conf.idx, euribor3m, nr.employed) - Provides What ecomomic conditions were favourable. Also, interesting would be to know if there is any multicolineraity introduced based on economic indicators
 * Below are categorical and numeric features that are identified from the dataset
@@ -26,11 +26,18 @@ The objective of this task is to evaluate how effectively client and campaign at
 ![https://github.com/sushikshit79/BankMarketingCampign/blob/main/images/data_understanding_visuals.png](https://github.com/sushikshit79/BankMarketingCampign/blob/main/images/data_understanding_visuals.png)
 
 ## Data Preparation
+* Duration data is only available after a call is complete and not before the call. The goal of the model is to predict whether a client will subscibe before the call and not after the call. Hence, removed duration feature.
+* Numerical features (age, campaign, pdays, previous,emp.var.rate, cons.price.idx,cons.conf.idx, euribor3m, nr.employed) are standardized using StandardScaler to ensure they are on a comparable scale.
+* Categorical features (job, marital, education, default, housing, loan, contact, month,day_of_week, poutcome) are transformed using One-Hot Encoding to convert discrete categories into a numerical format.
 
 
 ## Modeling
 
 ### Dummy Modeling
+* Baseline model performance is established using a DummyClassifier. Accuracy of the baseline model was approximately 80%.
+* Below are the baseline model metrcis
+
+
 
 ### Simple Modeling
 
