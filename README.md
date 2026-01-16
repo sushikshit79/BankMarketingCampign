@@ -62,7 +62,7 @@ The employment variation rate(emp.var.rate), Euribor rate (euribor3m), and numbe
 
 ![https://github.com/sushikshit79/BankMarketingCampign/blob/main/images/Model_HP_FE1_Metrcis.jpg](https://github.com/sushikshit79/BankMarketingCampign/blob/main/images/Model_HP_FE1_Metrcis.jpg)
 
-#### Modeling with Hyperparameters and Feature Engineering 2 ((HP_FE2)
+#### Modeling with Hyperparameters and Feature Engineering 2 (HP_FE2)
 This approach included combining both Hyperparameter evaluation and reduction of client profile dimensionality.
 
 ##### Client Profile Dimensionality Reduction
