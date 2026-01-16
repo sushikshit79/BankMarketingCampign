@@ -34,12 +34,15 @@ The objective of this task is to evaluate how effectively client and campaign at
 ## Modeling
 
 ### Dummy Modeling
-* Baseline model performance is established using a DummyClassifier. Accuracy of the baseline model was approximately 80%.
-* Below are the baseline model metrcis
+* Baseline model performance is established using a DummyClassifier, accuracy of the baseline model was approximately 80%. Below are the baseline model metrcis
 
+![https://github.com/sushikshit79/BankMarketingCampign/blob/main/images/Mod17_dummyclassifier_metrcis.jpg](https://github.com/sushikshit79/BankMarketingCampign/blob/main/images/Mod17_dummyclassifier_metrcis.jpg)
 
 
 ### Simple Modeling
+* Simple model evaluation was done using Logistic Regression. Accuracy of the model is 80%, while Recall is low loosing potential subscribers. Below are the metrics of simple model
+
+![https://github.com/sushikshit79/BankMarketingCampign/blob/main/images/mod17_simple_model_metrics.jpg](https://github.com/sushikshit79/BankMarketingCampign/blob/main/images/mod17_simple_model_metrics.jpg)
 
 #### Modeling with Hyperparameters
 
