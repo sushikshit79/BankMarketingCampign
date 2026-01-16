@@ -23,7 +23,7 @@ The objective of this task is to evaluate how effectively client and campaign at
     * Categorical features: job, marital, education, default, housing, loan, contact, month,day_of_week, poutcome
     * Numeric features: age, campaign, pdays, previous,emp.var.rate, cons.price.idx,cons.conf.idx, euribor3m, nr.employed
 * Visualization of multiple features in relation to subscription
-  * ![https://github.com/sushikshit79/BankMarketingCampign/blob/main/images/data_understanding_visuals.png](https://github.com/sushikshit79/BankMarketingCampign/blob/main/images/data_understanding_visuals.png)
+![https://github.com/sushikshit79/BankMarketingCampign/blob/main/images/data_understanding_visuals.png](https://github.com/sushikshit79/BankMarketingCampign/blob/main/images/data_understanding_visuals.png)
 
 ## Data Preparation
 
