@@ -1,6 +1,6 @@
 # Client Term Deposit Subscription Modeling
 
-Location of Pratcical Application 3 Repository: [https://github.com/sushikshit79/BankMarketingCampign](https://github.com/sushikshit79/BankMarketingCampign)
+Location of Practical Application 3 Repository: [https://github.com/sushikshit79/BankMarketingCampign](https://github.com/sushikshit79/BankMarketingCampign)
 
 ## Overview
 
