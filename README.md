@@ -1,6 +1,6 @@
-# Term Deposit Subscription
+# Client Term Deposit Subscription Modeling
 
-Location of Pratcical Application 3 Repository: [https://github.com/sushikshit79/MLAIPA1/blob/main](https://github.com/sushikshit79/MLAIPA1/blob/main)
+Location of Pratcical Application 3 Repository: [[https://github.com/sushikshit79/MLAIPA1/blob/main](https://github.com/sushikshit79/MLAIPA1/blob/main)
 
 ## Overview
 
